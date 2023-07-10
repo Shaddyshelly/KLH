@@ -161,10 +161,10 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .header.header-scrolled {
@@ -1136,6 +1136,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(255, 255, 255, 0.75);
+  height: 30vh;
 }
 
 .portfolio .portfolio-wrap::before {
