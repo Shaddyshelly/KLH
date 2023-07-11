@@ -471,7 +471,7 @@ section {
 
 .hero-cnc {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/service-bg.png") top center no-repeat;
   /* background: url(./assets/img/bg.png) top center no-repeat; */
   /* background-color: rgba(62, 62, 62, 1); */
@@ -486,7 +486,7 @@ section {
 }
 
 .hero-cnc h1 {
-  margin: 0;
+  margin:0;
   font-size: 52px;
   font-weight: 700;
   color: #005393;
@@ -511,8 +511,8 @@ section {
 .hero-cnc h2 {
   color: #000000;
   margin: 15px 0 0 0;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .hero .btn-get-started {
@@ -558,6 +558,9 @@ section {
     height: auto;
     padding: 120px 0 60px 0;
   }
+  .hero-cnc {
+    padding-top: 6.5em;
+  }
 
   .hero .hero-img {
     text-align: center;
@@ -584,6 +587,11 @@ section {
 
   .hero .hero-img img {
     width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .hero-cnc h1 {
+    font-size: 2.4rem;
   }
 }
 
