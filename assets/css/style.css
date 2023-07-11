@@ -253,7 +253,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: rgba(0, 83, 147,0.6);
+  background: rgba(0, 83, 147, 0.6);
 }
 
 .navbar .dropdown ul {
@@ -468,6 +468,7 @@ section {
   /* background-color: rgba(62, 62, 62, 1); */
   background-size: cover;
 }
+
 .hero-cnc {
   width: 100%;
   height: 100vh;
@@ -483,17 +484,20 @@ section {
   font-weight: 700;
   color: #ffffff;
 }
+
 .hero-cnc h1 {
   margin: 0;
   font-size: 52px;
   font-weight: 700;
   color: #005393;
 }
+
 @media (max-width: 992px) {
   .tabletFlexReverse {
     flex-direction: column-reverse;
   }
 }
+
 /* .bg-white{
   background-color: rgba(255, 255, 255, 0.5) !important;
 } */
@@ -503,6 +507,7 @@ section {
   margin: 15px 0 0 0;
   font-size: 18px;
 }
+
 .hero-cnc h2 {
   color: #000000;
   margin: 15px 0 0 0;
@@ -518,7 +523,7 @@ section {
   transition: 0.5s;
   color: #fff;
   background: #005393;
-  box-shadow: 0px 5px 30px rgba(0, 83, 147,0.5);
+  box-shadow: 0px 5px 30px rgba(0, 83, 147, 0.5);
 }
 
 .hero .btn-get-started span {
@@ -1640,8 +1645,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
-  background: #fafbff;
+  color: #ffffff;
+  /* background: #fafbff; */
   padding: 30px;
 }
 
@@ -1740,6 +1745,12 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+}
+
+.contact-bg {
+  width: 100%;
+  background: url("../img/glass-building.jpg") top center no-repeat;
+  background-size: cover;
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -2320,7 +2331,7 @@ section {
 }
 
 .footer .footer-newsletter form input[type=submit]:hover {
-  background: rgb(0, 83, 147,0.8);
+  background: rgb(0, 83, 147, 0.8);
 }
 
 .footer .footer-top {

@@ -74,9 +74,9 @@
                     <!-- <h2>Contact</h2> -->
                     <p>Contact Us</p>
                 </header>
-                <div class="row gy-4">
+                <div class="row">
                     <div class="col-lg-6">
-                        <div class="row">
+                        <div class="row contact-bg">
                             <div class="col-md-12">
                                 <div class="info-box">
                                     <div class="col-lg-12 col-md-12 footer-contact text-center text-md-start">
@@ -84,7 +84,8 @@
                                         <strong>Mr. Hariharan</strong>
                                         <p>
                                             <strong>H.O & Laser :</strong><br><br>
-                                            <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i> No : 153, 6th Street, <br>
+                                            <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i>
+                                            No : 153, 6th Street, <br>
                                             SIDCO INDUSTRIAL ESTATE,Pattaravakkam,Ch-98.<br><br>
                                             <i style="font-size:20px" class="fa">&#xf095;</i> : +91-7200022934 / 044
                                             2624 6604 / 044 4861 5829<br><br>
@@ -93,7 +94,8 @@
                                         </p>
                                         <p>
                                             <strong>Water Jet : </strong><br><br>
-                                            <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i> No : 439, 8th Street, <br>
+                                            <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i>
+                                            No : 439, 8th Street, <br>
                                             SIDCO INDUSTRIAL ESTATE,Ambattur,Ch-98.<br><br>
                                             <i style="font-size:16px" class="fa">&#xf0e0;</i>
                                             : production@klhcuttingsolutions.com <br><br>
@@ -112,19 +114,23 @@
                         <form action="forms/contact.php" method="post" class="php-email-form">
                             <div class="row gy-4">
                                 <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name*"
                                         required>
                                 </div>
                                 <div class="col-md-6 ">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email"
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email*"
                                         required>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                    <input type="number" class="form-control" name="contact" placeholder="Your Mobile Number*"
                                         required>
                                 </div>
                                 <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject*"
+                                        required>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message*"
                                         required></textarea>
                                 </div>
                                 <div class="col-md-12 text-center">
