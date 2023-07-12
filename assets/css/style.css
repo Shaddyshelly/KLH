@@ -1759,6 +1759,7 @@ section {
   width: 100%;
   background: url("../img/glass-building.jpg") top center no-repeat;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .contact .php-email-form button[type=submit]:hover {
